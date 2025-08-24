@@ -1,0 +1,20 @@
+const AppAdsTxt = () => {
+  React.useEffect(() => {
+    // Set content type for proper serving
+    document.title = 'app-ads.txt';
+  }, []);
+
+  return (
+    <pre style={{ 
+      fontFamily: 'monospace', 
+      margin: 0, 
+      padding: '20px',
+      backgroundColor: 'white',
+      color: 'black',
+      fontSize: '14px',
+      lineHeight: '1.4'
+    }}>
+      google.com, pub-6125156589186380, DIRECT, f08c47fec0942fa0
+    </pre>
+  );
+};

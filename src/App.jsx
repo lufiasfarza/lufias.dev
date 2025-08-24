@@ -1,37 +1,69 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+import React from 'react'
+import { Routes, Route, Link } from 'react-router-dom'
+import Home from './components/Home'
+import FluxVPNPrivacyPolicy from './components/FluxVPNPrivacyPolicy'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src="/vite.svg" className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <div className="bg-gray-100 min-h-screen font-sans">
-        <header className="bg-white shadow py-6 px-4">
-          <h1 className="text-2xl font-bold text-indigo-600">Lufias.dev</h1>
-        </header>
+    <div className="App">
+      {/* Navigation Header */}
+      <nav className="bg-white shadow-sm border-b">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex justify-between h-16">
+            <div className="flex items-center">
+              <Link to="/" className="text-xl font-bold text-gray-900">
+                lufias.dev
+              </Link>
+            </div>
+            <div className="flex items-center space-x-4">
+              <Link 
+                to="/" 
+                className="text-gray-500 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium"
+              >
+                Home
+              </Link>
+              <Link 
+                to="/flux-vpn-privacy" 
+                className="text-gray-500 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium"
+              >
+                FLUX VPN Privacy
+              </Link>
+            </div>
+          </div>
+        </div>
+      </nav>
 
-        <main className="text-center py-20">
-          <h2 className="text-4xl font-bold mb-4">Selamat datang ke <span className="text-indigo-600">lufias.dev</span> 🚀</h2>
-          <p className="text-gray-600 mb-6">Ini laman rasmi saya sebagai developer, trader dan pembina projek digital.</p>
-          <a href="#projek" className="bg-indigo-600 text-white px-6 py-3 rounded hover:bg-indigo-700 transition">Lihat Projek</a>
-        </main>
-
-        <footer className="bg-gray-800 text-white text-center py-6 mt-10">
-          <p>&copy; 2025 Lufiasfarza. Dibina guna Tailwind CSS ❤️</p>
-        </footer>
-      </div>
-    </>
-  );
+      {/* Main Content */}
+      <main>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/flux-vpn-privacy" element={<FluxVPNPrivacyPolicy />} />
+          <Route path="/privacy" element={<FluxVPNPrivacyPolicy />} />
+          {/* 404 Page */}
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </main>
+    </div>
+  )
 }
 
-export default App;
+// 404 Component
+const NotFound = () => {
+  return (
+    <div className="min-h-screen flex items-center justify-center">
+      <div className="text-center">
+        <h1 className="text-4xl font-bold text-gray-900 mb-4">404</h1>
+        <p className="text-gray-600 mb-4">Page not found</p>
+        <Link 
+          to="/" 
+          className="text-blue-600 hover:text-blue-800 underline"
+        >
+          Back to Home
+        </Link>
+      </div>
+    </div>
+  )
+}
+
+export default App
