@@ -10,7 +10,7 @@ const FluxVPNPrivacyPolicy = () => {
             <h1 className="text-4xl font-bold text-gray-900 mb-2">Privacy Policy</h1>
             <h2 className="text-xl text-blue-600 font-semibold mb-2">Awan VPN</h2>
             <p className="text-sm text-gray-500 bg-gray-100 inline-block px-4 py-2 rounded-full">
-              Last Updated: August 24, 2025
+              Last Updated: January 8, 2025
             </p>
           </div>
         </div>
@@ -29,7 +29,7 @@ const FluxVPNPrivacyPolicy = () => {
                   Introduction
                 </h3>
                 <p className="text-blue-100 leading-relaxed">
-                  Awan VPN (&ldquo;we,&rdquo; &ldquo;our,&rdquo; or &ldquo;us&rdquo;) is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our VPN mobile application and related services.
+                  Awan VPN (&ldquo;we,&rdquo; &ldquo;our,&rdquo; or &ldquo;us&rdquo;) is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our Android VPN application (Package: dev.lufiasfarza.awanvpn) and related services.
                 </p>
               </div>
             </section>
@@ -48,15 +48,15 @@ const FluxVPNPrivacyPolicy = () => {
                   <ul className="space-y-3">
                     <li className="flex items-start text-gray-700">
                       <span className="w-2 h-2 bg-green-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                      Google Play account information for subscription management
+                      Google Play account information for subscription management (Premium features)
                     </li>
                     <li className="flex items-start text-gray-700">
                       <span className="w-2 h-2 bg-green-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                      Email address (if provided for support)
+                      Email address (if provided for support: hello@lufias.dev)
                     </li>
                     <li className="flex items-start text-gray-700">
                       <span className="w-2 h-2 bg-green-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                      Device identifiers for advertising purposes
+                      Device identifiers for AdMob advertising (AdMob App ID: ca-app-pub-6125156589186380~8963090875)
                     </li>
                   </ul>
                 </div>
@@ -67,19 +67,19 @@ const FluxVPNPrivacyPolicy = () => {
                   <ul className="space-y-3">
                     <li className="flex items-start text-gray-700">
                       <span className="w-2 h-2 bg-blue-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                      Device type, operating system version
+                      Device type, Android OS version, device model
                     </li>
                     <li className="flex items-start text-gray-700">
                       <span className="w-2 h-2 bg-blue-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                      App version and usage statistics
+                      App version (Awan VPN v2.0.0), session usage statistics
                     </li>
                     <li className="flex items-start text-gray-700">
                       <span className="w-2 h-2 bg-blue-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                      Connection timestamps and data transfer amounts
+                      Connection timestamps, session duration, data transfer amounts
                     </li>
                     <li className="flex items-start text-gray-700">
                       <span className="w-2 h-2 bg-blue-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                      IP address (only for connection purposes, not logged)
+                      IP address (only for VPN connection purposes, not logged or stored)
                     </li>
                   </ul>
                 </div>
@@ -178,19 +178,19 @@ const FluxVPNPrivacyPolicy = () => {
                   <ul className="space-y-2">
                     <li className="flex items-center text-gray-700">
                       <span className="w-2 h-2 bg-yellow-500 rounded-full mr-3"></span>
-                      <strong>Google AdMob:</strong> For displaying ads in the free version
+                      <strong>Google AdMob:</strong> For displaying banner, interstitial, rewarded, and native ads in the free version
                     </li>
                     <li className="flex items-center text-gray-700">
                       <span className="w-2 h-2 bg-yellow-500 rounded-full mr-3"></span>
-                      <strong>Meta Audience Network:</strong> For mediated advertising
+                      <strong>AdMob Ad Units:</strong> Banner (ca-app-pub-6125156589186380/8328681969), Interstitial (ca-app-pub-6125156589186380/7015600298), Rewarded (ca-app-pub-6125156589186380/1763273619)
                     </li>
                     <li className="flex items-center text-gray-700">
                       <span className="w-2 h-2 bg-yellow-500 rounded-full mr-3"></span>
-                      <strong>AppLovin:</strong> For advertising mediation
+                      <strong>User Messaging Platform (UMP):</strong> For GDPR/CCPA consent management
                     </li>
                   </ul>
                   <p className="text-gray-600 mt-4 text-sm">
-                    These partners may collect device identifiers and usage data for ad personalization. You can opt out of personalized advertising in your device settings.
+                    These partners may collect device identifiers and usage data for ad personalization. You can opt out of personalized advertising in your device settings or through our consent management system.
                   </p>
                 </div>
               </div>
@@ -210,19 +210,23 @@ const FluxVPNPrivacyPolicy = () => {
                 <ul className="space-y-3">
                   <li className="flex items-start text-gray-700">
                     <span className="w-2 h-2 bg-red-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                    WireGuard protocol for secure VPN connections
+                    WireGuard protocol for secure VPN connections (latest encryption standards)
                   </li>
                   <li className="flex items-start text-gray-700">
                     <span className="w-2 h-2 bg-red-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                    Encrypted data transmission
+                    End-to-end encrypted data transmission
                   </li>
                   <li className="flex items-start text-gray-700">
                     <span className="w-2 h-2 bg-red-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                    Regular security audits and updates
+                    ProGuard obfuscation and R8 minification for code protection
                   </li>
                   <li className="flex items-start text-gray-700">
                     <span className="w-2 h-2 bg-red-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                    Limited data retention policies
+                    Network security configuration and certificate pinning
+                  </li>
+                  <li className="flex items-start text-gray-700">
+                    <span className="w-2 h-2 bg-red-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                    Limited data retention policies and automatic cleanup
                   </li>
                 </ul>
               </div>
@@ -258,6 +262,52 @@ const FluxVPNPrivacyPolicy = () => {
               </div>
             </section>
 
+            {/* App-Specific Features */}
+            <section className="mb-12">
+              <h3 className="text-2xl font-bold text-gray-900 mb-8 flex items-center">
+                <span className="w-10 h-10 bg-cyan-500 rounded-lg flex items-center justify-center text-white mr-4">📱</span>
+                App-Specific Features & Data Collection
+              </h3>
+              
+              <div className="space-y-6">
+                <div className="bg-cyan-50 border-2 border-cyan-200 rounded-xl p-6">
+                  <h4 className="text-lg font-bold text-cyan-800 mb-4">Session Management</h4>
+                  <ul className="space-y-2">
+                    <li className="flex items-start text-gray-700">
+                      <span className="w-2 h-2 bg-cyan-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                      <strong>Free Session:</strong> 1-hour daily limit with session tracking
+                    </li>
+                    <li className="flex items-start text-gray-700">
+                      <span className="w-2 h-2 bg-cyan-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                      <strong>Rewarded Ads:</strong> Watch ads to extend session time (+15 minutes per ad)
+                    </li>
+                    <li className="flex items-start text-gray-700">
+                      <span className="w-2 h-2 bg-cyan-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                      <strong>Session Data:</strong> Start time, duration, remaining time (stored locally on device)
+                    </li>
+                  </ul>
+                </div>
+
+                <div className="bg-green-50 border-2 border-green-200 rounded-xl p-6">
+                  <h4 className="text-lg font-bold text-green-800 mb-4">Premium Features</h4>
+                  <ul className="space-y-2">
+                    <li className="flex items-start text-gray-700">
+                      <span className="w-2 h-2 bg-green-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                      <strong>Subscription:</strong> RM 9.90/month via Google Play Billing
+                    </li>
+                    <li className="flex items-start text-gray-700">
+                      <span className="w-2 h-2 bg-green-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                      <strong>Unlimited Access:</strong> No session limits, no ads
+                    </li>
+                    <li className="flex items-start text-gray-700">
+                      <span className="w-2 h-2 bg-green-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                      <strong>Payment Data:</strong> Handled by Google Play, we don't store payment information
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+
             {/* Geographic Focus */}
             <section className="mb-12">
               <h3 className="text-2xl font-bold text-gray-900 mb-8 flex items-center">
@@ -265,9 +315,9 @@ const FluxVPNPrivacyPolicy = () => {
                 Geographic Considerations
               </h3>
               
-              <div className="bg-pink-50 border-2 border-pink-200 rounded-xl p-6">
+                <div className="bg-pink-50 border-2 border-pink-200 rounded-xl p-6">
                 <p className="text-gray-700">
-                  Awan VPN primarily serves users in <strong>Malaysia, Singapore, and Indonesia</strong>. Our Singapore server is optimized for low latency connections in this region. Data processing occurs in accordance with applicable local privacy laws.
+                  Awan VPN primarily serves users in <strong>Malaysia, Singapore, and Indonesia</strong>. Our Singapore server is optimized for low latency connections in this region. Data processing occurs in accordance with applicable local privacy laws including Malaysia's Personal Data Protection Act (PDPA) and Singapore's Personal Data Protection Act (PDPA).
                 </p>
               </div>
             </section>
@@ -353,8 +403,8 @@ const FluxVPNPrivacyPolicy = () => {
                       <span className="w-8 h-8 bg-white bg-opacity-20 rounded-lg flex items-center justify-center mr-4">✉️</span>
                       <div>
                         <span className="font-semibold">Email: </span>
-                        <a href="mailto:support@lufias.dev" className="text-indigo-200 hover:text-white underline">
-                          support@lufias.dev
+                        <a href="mailto:hello@lufias.dev" className="text-indigo-200 hover:text-white underline">
+                          hello@lufias.dev
                         </a>
                       </div>
                     </div>
@@ -365,6 +415,13 @@ const FluxVPNPrivacyPolicy = () => {
                         <a href="https://lufias.dev" className="text-indigo-200 hover:text-white underline">
                           https://lufias.dev
                         </a>
+                      </div>
+                    </div>
+                    <div className="flex items-center">
+                      <span className="w-8 h-8 bg-white bg-opacity-20 rounded-lg flex items-center justify-center mr-4">📱</span>
+                      <div>
+                        <span className="font-semibold">App Package: </span>
+                        <span className="text-indigo-200">dev.lufiasfarza.awanvpn</span>
                       </div>
                     </div>
                   </div>
