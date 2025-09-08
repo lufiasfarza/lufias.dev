@@ -13,9 +13,9 @@ const FluxVPNLanding = () => {
             <div className="flex items-center">
               <div className="flex-shrink-0 flex items-center">
                 <div className="w-10 h-10 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center mr-3">
-                  <span className="text-white font-bold text-lg">F</span>
+                  <span className="text-white font-bold text-lg">A</span>
                 </div>
-                <span className="text-xl font-bold text-gray-900">FLUX VPN</span>
+                <span className="text-xl font-bold text-gray-900">Awan VPN</span>https://lufias.dev/awan-vpn-privacy
               </div>
             </div>
 
@@ -118,9 +118,9 @@ const FluxVPNLanding = () => {
                   <div className="flex items-center justify-between mb-6">
                     <div className="flex items-center">
                       <div className="w-8 h-8 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center mr-2">
-                        <span className="text-white font-bold text-sm">F</span>
+                        <span className="text-white font-bold text-sm">A</span>
                       </div>
-                      <span className="font-bold text-gray-900">FLUX VPN</span>
+                      <span className="font-bold text-gray-900">Awan VPN</span>
                     </div>
                     <div className="w-3 h-3 bg-green-500 rounded-full"></div>
                   </div>
@@ -156,7 +156,7 @@ const FluxVPNLanding = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Why Choose FLUX VPN?
+              Why Choose Awan VPN?
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
               Built specifically for Southeast Asian users who need fast, reliable, and secure internet access.
@@ -337,7 +337,7 @@ const FluxVPNLanding = () => {
             Ready to Get Started?
           </h2>
           <p className="text-xl text-gray-600 mb-8">
-            Download FLUX VPN now and experience the fastest VPN in Southeast Asia.
+            Download Awan VPN now and experience the fastest VPN in Southeast Asia.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center max-w-md mx-auto">
@@ -363,7 +363,7 @@ const FluxVPNLanding = () => {
                 <div className="w-10 h-10 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center mr-3">
                   <span className="text-white font-bold text-lg">F</span>
                 </div>
-                <span className="text-xl font-bold">FLUX VPN</span>
+                <span className="text-xl font-bold">Awan VPN</span>
               </div>
               <p className="text-gray-400 mb-6 max-w-md">
                 Lightning-fast VPN optimized for Southeast Asian users. Connect securely to Singapore servers with ultra-low latency.
@@ -390,7 +390,7 @@ const FluxVPNLanding = () => {
             <div>
               <h3 className="text-lg font-semibold mb-4">Support</h3>
               <ul className="space-y-2">
-                <li><a href="/flux-vpn-privacy" className="text-gray-400 hover:text-white transition-colors">Privacy Policy</a></li>
+                <li><a href="/awan-vpn-privacy" className="text-gray-400 hover:text-white transition-colors">Privacy Policy</a></li>
                 <li><a href="mailto:support@lufias.dev" className="text-gray-400 hover:text-white transition-colors">Contact Us</a></li>
                 <li><a href="/app-ads.txt" className="text-gray-400 hover:text-white transition-colors">App-ads.txt</a></li>
               </ul>
@@ -399,7 +399,7 @@ const FluxVPNLanding = () => {
 
           <div className="border-t border-gray-800 mt-8 pt-8 text-center">
             <p className="text-gray-400">
-              © 2025 FLUX VPN. Made with ❤️ for Southeast Asia.
+              © 2025 Awan VPN. Made with ❤️ for Southeast Asia.
             </p>
           </div>
         </div>

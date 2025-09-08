@@ -8,7 +8,7 @@ const FluxVPNPrivacyPolicy = () => {
         <div className="max-w-5xl mx-auto px-6 py-8">
           <div className="text-center">
             <h1 className="text-4xl font-bold text-gray-900 mb-2">Privacy Policy</h1>
-            <h2 className="text-xl text-blue-600 font-semibold mb-2">FLUX VPN</h2>
+            <h2 className="text-xl text-blue-600 font-semibold mb-2">Awan VPN</h2>
             <p className="text-sm text-gray-500 bg-gray-100 inline-block px-4 py-2 rounded-full">
               Last Updated: August 24, 2025
             </p>
@@ -29,7 +29,7 @@ const FluxVPNPrivacyPolicy = () => {
                   Introduction
                 </h3>
                 <p className="text-blue-100 leading-relaxed">
-                  FLUX VPN (&ldquo;we,&rdquo; &ldquo;our,&rdquo; or &ldquo;us&rdquo;) is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our VPN mobile application and related services.
+                  Awan VPN (&ldquo;we,&rdquo; &ldquo;our,&rdquo; or &ldquo;us&rdquo;) is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our VPN mobile application and related services.
                 </p>
               </div>
             </section>
@@ -267,7 +267,7 @@ const FluxVPNPrivacyPolicy = () => {
               
               <div className="bg-pink-50 border-2 border-pink-200 rounded-xl p-6">
                 <p className="text-gray-700">
-                  FLUX VPN primarily serves users in <strong>Malaysia, Singapore, and Indonesia</strong>. Our Singapore server is optimized for low latency connections in this region. Data processing occurs in accordance with applicable local privacy laws.
+                  Awan VPN primarily serves users in <strong>Malaysia, Singapore, and Indonesia</strong>. Our Singapore server is optimized for low latency connections in this region. Data processing occurs in accordance with applicable local privacy laws.
                 </p>
               </div>
             </section>
@@ -315,7 +315,7 @@ const FluxVPNPrivacyPolicy = () => {
               
               <div className="bg-amber-50 border-2 border-amber-200 rounded-xl p-6">
                 <p className="text-gray-700">
-                  FLUX VPN is not intended for children under 13. We do not knowingly collect personal information from children under 13. If you believe we have inadvertently collected such information, please contact us immediately.
+                  Awan VPN is not intended for children under 13. We do not knowingly collect personal information from children under 13. If you believe we have inadvertently collected such information, please contact us immediately.
                 </p>
               </div>
             </section>
@@ -347,7 +347,7 @@ const FluxVPNPrivacyPolicy = () => {
                 </p>
                 
                 <div className="bg-white bg-opacity-10 rounded-xl p-6">
-                  <h4 className="text-xl font-bold mb-4">FLUX VPN Support</h4>
+                  <h4 className="text-xl font-bold mb-4">Awan VPN Support</h4>
                   <div className="space-y-3">
                     <div className="flex items-center">
                       <span className="w-8 h-8 bg-white bg-opacity-20 rounded-lg flex items-center justify-center mr-4">✉️</span>

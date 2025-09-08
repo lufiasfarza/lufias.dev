@@ -24,10 +24,10 @@ function App() {
                 Home
               </Link>
               <Link 
-                to="/flux-vpn-privacy" 
+                to="/awan-vpn-privacy" 
                 className="text-gray-500 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium"
               >
-                FLUX VPN Privacy
+                Awan VPN Privacy
               </Link>
             </div>
           </div>
@@ -38,7 +38,7 @@ function App() {
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/flux-vpn-privacy" element={<FluxVPNPrivacyPolicy />} />
+          <Route path="/awan-vpn-privacy" element={<FluxVPNPrivacyPolicy />} />
           <Route path="/privacy" element={<FluxVPNPrivacyPolicy />} />
           {/* 404 Page */}
           <Route path="*" element={<NotFound />} />
